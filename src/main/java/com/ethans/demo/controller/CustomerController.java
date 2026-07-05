@@ -29,7 +29,7 @@ public class CustomerController {
 
         List<CustomerDTO> customers = new ArrayList<>();
 
-        for (int i = 1; i <= 10; i++) {
+        for (int i = 1; i <= 15; i++) {
             customers.add(
                     new CustomerDTO(
                             (long) i,
